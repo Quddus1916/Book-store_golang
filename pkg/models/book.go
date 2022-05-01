@@ -15,6 +15,3 @@ type Book struct{
 
 }
 
-func init(){
-	config.connect()
-}
