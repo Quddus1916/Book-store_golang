@@ -11,7 +11,7 @@ var (
 	db *gorm.DB
 )
 
-func connect() {
+func connect(){
 	d,err:= gorm.Open("mysql","root:quddus_1916@tcp(127.0.0.1:3306)/book_management?charset=utf8&parseTime=True&loc=Local")
 	if err!= nil{
 		panic(err)

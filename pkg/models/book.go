@@ -19,4 +19,5 @@ func init(){
 	config.connect()
 	
 	db = config.GetDB()
+	db.AutoMigrate(&Book{})
 }
