@@ -3,6 +3,7 @@ package config
 import(
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"log"
 
 )
 
@@ -16,6 +17,10 @@ func connect() {
 		panic(err)
 	}
 	db = d
+}
+
+func test(){
+	log.Panic("test")
 }
 
 func GetDB() *gorm.DB{
