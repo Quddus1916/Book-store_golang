@@ -15,3 +15,6 @@ type Book struct{
 
 }
 
+func init(){
+     
+}
