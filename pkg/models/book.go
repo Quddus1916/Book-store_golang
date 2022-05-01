@@ -17,5 +17,6 @@ type Book struct{
 
 func init(){
 	config.connect()
+	
 	db = config.GetDB()
 }
