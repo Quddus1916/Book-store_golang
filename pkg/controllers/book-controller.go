@@ -2,11 +2,11 @@ package controllers
 
 import(
 	"encoding/json"
-	"fmt"
+	//"fmt"
 	"net/http"
-	"strconv"
-	"github.com/gorilla/mux"
-	"github.com/Quddus1916/Book-store_golang/pkg/utils"
+	//"strconv"
+	//"github.com/gorilla/mux"
+	//"github.com/Quddus1916/Book-store_golang/pkg/utils"
 	"github.com/Quddus1916/Book-store_golang/pkg/models"
 )
 var NewBook  models.Book
