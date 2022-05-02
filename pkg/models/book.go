@@ -9,14 +9,14 @@ var db *gorm.DB
 
 type Book struct{
 	gorm.Model
-	Name string `gorm:""json:"Name"`
+	Name string `gorm:"" json:"Name"`
 	Author string `json:"Author"`
 	Publication string `json:"Publication"`
 
 }
 
 func init(){
-	config.connect()
+	config.Connect()
 	
 	db = config.GetDB()
 	db.AutoMigrate(&Book{})
